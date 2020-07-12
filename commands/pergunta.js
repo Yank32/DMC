@@ -15,14 +15,12 @@ var fortunes = [
     "Proxima pergunta por favor '-'",
     "Vai na fé",
     "Ah claro pode ser",
-    "Eita melhor eu nem falar nada",
-    "Sei não mais compra o vip ai",
-    "Se comprar o vip eu te falo"
+    "Eita melhor eu nem falar nada"
 ];
 
 
 module.exports.run = async (client, message, args) => {
-if(message.guild.systemChannelID === '725872394471866378'){
+if(message.guild.systemChannelID === '730847407843049703'){
 
 }
   
