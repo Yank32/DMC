@@ -35,7 +35,7 @@ module.exports.run = async (client, message, args) => {
         .setAuthor(`🌠DualityMC🌠`, message.guild.iconURL)
         .setThumbnail(client.user.displayAvatarURL)
         .setTimestamp()
-        .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: -**`)
+        .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: d!**`)
         .addField(`Comando#1:`, "``d!Ban <@usuario> <motivo>``")
         .addField(`Comando#2:`, "``d!Kick <@usuario> <motivo>``")
         .addField(`Comando#3:`, "``d!Limpar <1 a 99> (para limpar mensagens)``")
