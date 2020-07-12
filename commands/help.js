@@ -32,7 +32,7 @@ module.exports.run = async (client, message, args) => {
         .setAuthor(`🌠DualityMC🌠`, message.guild.iconURL)
         .setThumbnail(client.user.displayAvatarURL)
         .setTimestamp()
-        .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: -**`)
+        .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: d!**`)
         .addField(`Comando#1:`, "``d!Avatar <@usuario> (Para ver a foto de alguem)``")
         .addField(`Comando#2:`, "``d!Info (Para ver as informações do servidor)``")
         .addField(`Comando#3:`, "``d!Jokempo (Jokempo com o Bot)``")
