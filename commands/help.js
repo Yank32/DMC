@@ -23,7 +23,7 @@ module.exports.run = async (client, message, args) => {
         message.delete();
 
         let embed = new Discord.MessageEmbed()
-        .setAuthor(`Comandos Rocket Host!`, message.guild.iconURL)
+        .setAuthor(`Comandos DualityMC!`, message.guild.iconURL)
         .setColor("#f94343")
         .setDescription(`${message.author.username} ***Mandei no seu privado !***`)
 
