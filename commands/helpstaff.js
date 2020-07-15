@@ -16,7 +16,7 @@ module.exports.run = async (client, message, args) => {
             command = client.commands.cache.get(command);
             var SHembed = new Discord.MessageEmbed()
             .setColor("RANDOM")
-            .setAuthor(`DualityMC`, message.guild.iconURL)
+            .setAuthor(`RedeDuper`, message.guild.iconURL)
             .setThumbnail(client.user.displayAvatarURL)
             .setDescription(`O Prefix do bot é: ${prefix}\n\n**Command:** ${command.config.name}\n**Description:** ${command.config.description || "No Description"}\n**Usage:** ${command.config.usage || "No Usage"}\n**Accessable by:** ${command.config.accessableby || "Members"}\n**Aliases:** ${command.config.noalias || command.config.aliases}`)
             message.channel.send(SHembed);
@@ -26,13 +26,13 @@ module.exports.run = async (client, message, args) => {
         message.delete();
         
         let embed = new Discord.MessageEmbed()
-        .setAuthor(`🌀Comandos Dos Staffs DualityMC!🌀`, message.guild.iconURL)
+        .setAuthor(`🌀Comandos Dos Staffs RedeDuper!🌀`, message.guild.iconURL)
         .setColor("RANDOM")
         .setDescription(`${message.author.username} ***Mandei no seu privado <3!***`)
 
         let Sembed = new Discord.MessageEmbed()
         .setColor("RANDOM")
-        .setAuthor(`🌠DualityMC🌠`, message.guild.iconURL)
+        .setAuthor(`🌠RedeDuper🌠`, message.guild.iconURL)
         .setThumbnail(client.user.displayAvatarURL)
         .setTimestamp()
         .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: d!**`)
@@ -41,7 +41,7 @@ module.exports.run = async (client, message, args) => {
         .addField(`Comando#3:`, "``d!Limpar <1 a 99> (para limpar mensagens)``")
         .addField(`Comando#4:`, "``d!Anuncio (siga os passos)``")
         .addField(`Comando#5:`, "``d!Aviso <@usuario> <msg de aviso para o usuario>``")
-        .setFooter("DualityMC", client.user.displayAvatarURL)
+        .setFooter("RedeDuper", client.user.displayAvatarURL)
         message.author.send(Sembed)
     }
 }
