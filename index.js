@@ -50,10 +50,10 @@ client.on('message', message => {
 
 client.on("guildMemberAdd", async (member) => { 
   
-member.roles.add("730847382434086932");
-  let guild = await client.guilds.cache.get("730845924498079745");
-  let channel = await client.channels.cache.get("730847388880601238");
-  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "Diamante");
+member.roles.add("714584484347117650");
+  let guild = await client.guilds.cache.get("709936017091723326");
+  let channel = await client.channels.cache.get("732605467439923270");
+  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "675070873593446401");
   if (guild != member.guild) {
     return console.log("Boas vindas!");
    } else {
@@ -87,9 +87,9 @@ console.log("Estou Online!")
 
 client.on("guildMemberRemove", async (member) => { 
 
-  let guild = await client.guilds.cache.get("730845924498079745");
-  let channel = await client.channels.cache.get("730847388880601238");
-  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "Diamante");
+  let guild = await client.guilds.cache.get("709936017091723326");
+  let channel = await client.channels.cache.get("732605467439923270");
+  let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "carregando");
   if (guild != member.guild) {
     return console.log("Ahh que pena, volte sempre");
    } else {
