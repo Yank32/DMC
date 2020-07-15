@@ -73,7 +73,7 @@ member.roles.add("730847382434086932");
 
 client.on("ready", () => {
   let activities = [
-      `${config.prefix}RedeDuper`,
+      `na RedeDuper`,
     ],
     i = 0;
   setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
