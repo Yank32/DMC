@@ -14,7 +14,7 @@ module.exports = {
             .addField("**ID:**", `${message.author.id}`, true)
             .addField("**Status:**", `${message.author.presence.status}`, true)
             .addField("**Created At:**", `${message.author.createdAt}`, true)
-            .setFooter(`Duality | MC`, client.user.displayAvatarURL);
+            .setFooter(`Rede | Duper`, client.user.displayAvatarURL);
     
         message.channel.send(uEmbed);
         }
