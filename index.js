@@ -73,7 +73,7 @@ member.roles.add("730847382434086932");
 
 client.on("ready", () => {
   let activities = [
-      `${config.prefix}DualityMC`,
+      `${config.prefix}RedeDuper`,
     ],
     i = 0;
   setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
@@ -99,7 +99,7 @@ client.on("guildMemberRemove", async (member) => {
       .setTitle(`${emoji} Adeus! ${emoji}`)
       .setDescription(`**${member.user.username}**, saiu do servidor! :broken_heart:`)
       .setThumbnail(member.user.displayAvatarURL({ dynamic: true, format: "png", size: 1024 }))
-      .setFooter("DualityMC")
+      .setFooter("RedeDuper")
       .setTimestamp();
 
     channel.send(embed);
