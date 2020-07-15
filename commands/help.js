@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
             command = client.commands.cache.get(command);
             var SHembed = new Discord.MessageEmbed()
             .setColor("cyan")
-            .setAuthor(`DualityMC`, message.guild.iconURL)
+            .setAuthor(`RedeDuper`, message.guild.iconURL)
             .setThumbnail(client.user.displayAvatarURL)
             .setDescription(`The bot prefix is: ${prefix}\n\n**Command:** ${command.config.name}\n**Description:** ${command.config.description || "No Description"}\n**Usage:** ${command.config.usage || "No Usage"}\n**Accessable by:** ${command.config.accessableby || "Members"}\n**Aliases:** ${command.config.noalias || command.config.aliases}`)
             message.channel.send(SHembed);
@@ -23,13 +23,13 @@ module.exports.run = async (client, message, args) => {
         message.delete();
 
         let embed = new Discord.MessageEmbed()
-        .setAuthor(`Comandos DualityMC!`, message.guild.iconURL)
+        .setAuthor(`Comandos RedeDuper!`, message.guild.iconURL)
         .setColor("#f94343")
         .setDescription(`${message.author.username} ***Mandei no seu privado !***`)
 
         let Sembed = new Discord.MessageEmbed()
         .setColor("RANDOM")
-        .setAuthor(`🌠DualityMC🌠`, message.guild.iconURL)
+        .setAuthor(`🌠RedeDuper🌠`, message.guild.iconURL)
         .setThumbnail(client.user.displayAvatarURL)
         .setTimestamp()
         .setDescription(`***Esses são meus comandos atuais!***\n**Meu prefix é: d!**`)
@@ -47,7 +47,7 @@ module.exports.run = async (client, message, args) => {
         .addField(`Comando#12:`, "``d!Casar <@usuario> (Para se casar com alguem)``")
         .addField(`Comando#13:`, "``d!Divorcio <@usuario> (Para se divorciar de alguem)``")
         .addField(`Comando#14:`, "``d!Reportar (Para reportar alguem)``")
-        .setFooter("DualityMC", client.user.displayAvatarURL)
+        .setFooter("RedeDuper", client.user.displayAvatarURL)
         message.author.send(Sembed)
     }
 }
