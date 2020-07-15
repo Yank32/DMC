@@ -6,7 +6,7 @@ module.exports = {
     run: async (client, message, args) => {
         let sEmbed = new MessageEmbed()
             .setColor('RAMDOM')
-            .setTitle("Server DualityMC Info")
+            .setTitle("Server RedeDuper Info")
             .setThumbnail(message.guild.iconURL)
             .addField("🧾 Nome do servidor", message.guild.name)
             .addField('👑 Criador do servidor', message.guild.owner, true)
