@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
     if (!motivo) return message.reply(`escreva o motivo! ex.: !ban @membro [motivo]`)
     if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply(`vc precisa da permissao **Banir Membros**.`)
  
-    var canal = client.channels.cache.get("731514990884028486");
+    var canal = client.channels.cache.get("732606613541879955");
  
     message.channel.send(`opa, vc realmente deseja punir esse usuario?`).then(msg => {
         msg.react("👍")
